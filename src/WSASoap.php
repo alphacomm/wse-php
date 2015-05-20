@@ -40,7 +40,7 @@
  * @version    1.0.0 
  */
 
-class WSASoap { 
+class WSASoap {
     const WSANS = 'http://schemas.xmlsoap.org/ws/2004/08/addressing'; 
     const WSAPFX = 'wsa'; 
     private $soapNS, $soapPFX; 
