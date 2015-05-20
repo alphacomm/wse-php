@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d35cb9e722207f0fa1f2e7e2da2e86d8",
+    "packages": [
+        {
+            "name": "ddvzwzjm/xmlseclibs",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ddvzwzjm/xmlseclibs.git",
+                "reference": "9021e8568b31adfbbac97f21d7ffc537294714bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ddvzwzjm/xmlseclibs/zipball/9021e8568b31adfbbac97f21d7ffc537294714bd",
+                "reference": "9021e8568b31adfbbac97f21d7ffc537294714bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "XmlSecLibs": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Richards",
+                    "email": "rrichards@cdatazone.org"
+                },
+                {
+                    "name": "Alexander Erm",
+                    "email": "alexerm@gmail.com"
+                }
+            ],
+            "description": "XmlSecLibs (latest fork of original repo)",
+            "homepage": "http://github.com/ddvzwzjm/xmllseclibs",
+            "keywords": [
+                "encryption",
+                "security",
+                "xml"
+            ],
+            "time": "2015-04-03 21:08:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

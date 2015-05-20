@@ -1,5 +1,5 @@
-<?php  
-/** 
+<?php
+/**
  * soap-server-wsse.php 
  * 
  * Copyright (c) 2007, Robert Richards <rrichards@ctindustries.net>. 
@@ -38,11 +38,12 @@
  * @copyright  2007 Robert Richards <rrichards@ctindustries.net> 
  * @license    http://www.opensource.org/licenses/bsd-license.php  BSD License 
  * @version    1.0.0 
- */ 
+ */
 
-require('xmlseclibs.php'); 
+use XmlSecLibs\XMLSecEnc;
+use XmlSecLibs\XMLSecurityDSig;
 
-class WSSESoapServer { 
+class WSSESoapServer {
     const WSSENS = 'http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd'; 
     const WSSENS_2003 = 'http://schemas.xmlsoap.org/ws/2003/06/secext'; 
     const WSUNS = 'http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd'; 
@@ -77,7 +78,7 @@ class WSSESoapServer {
             $this->secNode = $secnode; 
         } 
         return $wsNamespace; 
-    } 
+    }
 
     public function __construct($doc) { 
         $this->soapDoc = $doc; 

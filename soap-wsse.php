@@ -1,5 +1,5 @@
-<?php  
-/** 
+<?php
+/**
  * soap-wsse.php 
  * 
  * Copyright (c) 2010, Robert Richards <rrichards@ctindustries.net>. 
@@ -38,9 +38,11 @@
  * @copyright  2007-2010 Robert Richards <rrichards@ctindustries.net> 
  * @license    http://www.opensource.org/licenses/bsd-license.php  BSD License 
  * @version    1.1.0-dev 
- */ 
-  
-require('xmlseclibs.php'); 
+ */
+
+use XmlSecLibs\XMLSecEnc;
+use XmlSecLibs\XMLSecurityDSig;
+use XmlSecLibs\XMLSecurityKey;
 
 class WSSESoap { 
     const WSSENS = 'http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd'; 
