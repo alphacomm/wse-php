@@ -38,9 +38,9 @@
  * @copyright  2007 Robert Richards <rrichards@ctindustries.net> 
  * @license    http://www.opensource.org/licenses/bsd-license.php  BSD License 
  * @version    1.0.0 
- */ 
+ */
 
-class WSASoap { 
+class WSASoap {
     const WSANS = 'http://schemas.xmlsoap.org/ws/2004/08/addressing'; 
     const WSAPFX = 'wsa'; 
     private $soapNS, $soapPFX; 

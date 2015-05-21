@@ -1,0 +1,22 @@
+{
+    "name": "alphacomm/wse-php",
+    "description": "Libraries for adding WS-* support to ext/soap in PHP.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Robert Richards",
+            "email": "rrichards@cdatazone.org"
+        },
+        {
+            "name": "Jacob Kiers",
+            "email": "jacob@alphacomm.nl"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "require": {
+        "ddvzwzjm/xmlseclibs": "^0.1.0"
+    }
+}
